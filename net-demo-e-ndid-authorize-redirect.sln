@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net-demo-e-ndid-authorize-redirect.Server", "net-demo-e-ndid-authorize-redirect.Server\net-demo-e-ndid-authorize-redirect.Server.csproj", "{5B4EA233-E616-48EF-A1A2-36167C2E495A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "net-demo-e-ndid-authorize-redirect.client", "net-demo-e-ndid-authorize-redirect.client\net-demo-e-ndid-authorize-redirect.client.esproj", "{B4B16B55-51F0-45CD-90F7-7AB69520488D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B4EA233-E616-48EF-A1A2-36167C2E495A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4EA233-E616-48EF-A1A2-36167C2E495A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4EA233-E616-48EF-A1A2-36167C2E495A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4EA233-E616-48EF-A1A2-36167C2E495A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B16B55-51F0-45CD-90F7-7AB69520488D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B16B55-51F0-45CD-90F7-7AB69520488D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B16B55-51F0-45CD-90F7-7AB69520488D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B4B16B55-51F0-45CD-90F7-7AB69520488D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B16B55-51F0-45CD-90F7-7AB69520488D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B16B55-51F0-45CD-90F7-7AB69520488D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29A094F0-845F-4290-A4B4-E661A0BBB46A}
+	EndGlobalSection
+EndGlobal

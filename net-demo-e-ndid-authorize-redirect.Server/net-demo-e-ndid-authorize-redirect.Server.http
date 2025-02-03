@@ -1,0 +1,6 @@
+@net_demo_e_ndid_authorize_redirect.Server_HostAddress = http://localhost:5159
+
+GET {{net_demo_e_ndid_authorize_redirect.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
