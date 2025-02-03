@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "net-demo-e-ndid-authorize-redirect.client:build:production"
+              "buildTarget": "net-demo-e-ndid-authorize-redirect.client:build:production"
             },
             "development": {
-              "browserTarget": "net-demo-e-ndid-authorize-redirect.client:build:development"
+              "buildTarget": "net-demo-e-ndid-authorize-redirect.client:build:development"
             }
           },
           "defaultConfiguration": "development",
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "net-demo-e-ndid-authorize-redirect.client:build"
+            "buildTarget": "net-demo-e-ndid-authorize-redirect.client:build"
           }
         },
         "test": {
