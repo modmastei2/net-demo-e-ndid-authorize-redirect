@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace net_demo_e_ndid_authorize_redirect.Server.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
