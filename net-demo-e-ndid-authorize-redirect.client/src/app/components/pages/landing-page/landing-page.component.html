@@ -1,1 +1,17 @@
-<p>landing-page works!</p>
+@if (state == 'initial') {
+    <button (click)="onClickStart()">Start</button>
+}
+
+@if (state == 'process') {
+    <pre>
+        {{messages | json}}
+    </pre>
+    
+    <input type="text" [(ngModel)]="overrideToken"><br>
+
+    <span>Override Token : {{overrideToken}}</span>
+
+    <div style="font-size: 3rem;" [innerText]="displayTime"></div>
+
+    <button (click)="onClickTrigger(overrideToken)">Trigger</button>
+}
